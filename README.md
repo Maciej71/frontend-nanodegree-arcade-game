@@ -8,12 +8,12 @@ For detailed instructions on how to get started, check out this [guide](https://
 
 Game instruction
 ===============================
-* Run: 
-simply download the app and open index.html in any browser
+1. Run: 
+* simply download the app and open index.html in any browser
 
-* Play: 
--- game starts when player enters game board (press up key at the beggining of the game)
--- player has 60 seconds to get as much points as possible
--- for collecting a gem player gets 2 points
--- for reaching water line pleyer gets 5 points
--- if a bug bites the player he losts 3 points
+2. Play: 
+* Game starts when player enters game board (press up key at the beggining of the game)
+* layer has 120 seconds to get as much points as possible
+* for collecting a gem player gets 2 points
+* for reaching water line pleyer gets 5 points
+* if a bug bites the player he losts 3 points
