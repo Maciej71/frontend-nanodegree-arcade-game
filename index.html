@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>    
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC" rel="stylesheet">  
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div id="win-page" class="overlay">
+        <div class="overlay-content">
+            <div class='win-note'>
+                <div class="rotate fa fa-pagelines"></div>
+                <div class="fa fa-pagelines"></div>
+                <p class="congrats">CONGRATULATIONS</p>
+                <div class="stats">
+                    <p id="final-points"></p>
+                </div>
+                <button class="button" onclick="playAgain()">Play again</button>
+            </div>
+       </div>            
+    </div>
+    <div>
+        <h1>
+            SCORE : <span id='score'></span>
+        </h1>
+        <h1>
+            TIME : <span id='time'></span>
+        </h1>
+    </div>
     <script src="js/resources.js"></script>
     <script src="js/app.js"></script>
     <script src="js/engine.js"></script>

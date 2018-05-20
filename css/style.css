@@ -1,3 +1,47 @@
 body {
     text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(78, 186, 186, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.rotate {
+    transform: rotate(180deg)
+}
+
+.button {
+    background-color: #168C8C;
+    border: none;
+    color: white;
+    padding: 4vmin 9vmin;
+    text-align: center;
+    display: inline-block;
+    font-size: 4vmin;
+    cursor: pointer;
+}
+
+.win-note {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 15vmin;
+} 
+
+.congrats {
+    font-family: 'IM Fell English SC', serif;
+    font-size: 6vmin;
+    padding: 0 3vmin;
+}
+
+.stats {
+    font-size: 3vmin;
+    padding: 2vmin;
 }
